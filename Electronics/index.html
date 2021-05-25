@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Electronics Repair</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+<body>
+		<div class="upper"></div>
+		<div class="low">
+			<div class="righthead">
+				<a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a>
+				<a onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Register</a>
+			</div>
+		</div>
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<div id="id02" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Full Name</b></label>
+      <input type="text" placeholder="Enter Name" name="uname" required>
+      <label for="dob"><b>Date Of Birth</b></label>
+      <input type="text" placeholder="Enter DOB" name="dob" required>
+      <label for="mob"><b>Mobile</b></label>
+      <input type="text" placeholder="Enter Mobile" name="mob" required>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <label for="ad"><b>Address</b></label>
+      <input type="text" placeholder="Enter Address" name="ad" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="psw"><b>Confirm Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required> 
+      <button type="submit">Register</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+<!-- Slider section -->
+<center>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <!-- <div class="numbertext">1 / 4</div> -->
+  <img src="images/slide_img1.jpg" style="width:100%">
+  <div class="text">Caption One</div>
+</div>
+
+<div class="mySlides fade">
+  <!-- <div class="numbertext">2 / 4</div> -->
+  <img src="images/slide_img2.png" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <!-- <div class="numbertext">3 / 4</div> -->
+  <img src="images/slide_img3.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <!-- <div class="numbertext">4 / 4</div> -->
+  <img src="images/slide_img4.jpg" style="width:100%">
+  <div class="text">Caption Four</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  
+</div>
+</center>
+
+<!-- Second Slide Image Portion -->
+<center>
+<div class="Sec_slide">
+  <div class="sec1">
+    <div class="sec1cont1">
+      
+    </div>
+    <!-- <div class="sec1img1"> -->
+      <div class="img1sec1"><img src="images/slide2_img3.png"></div>
+      <div class="img2sec1"><img src="images/slide2_img4.png"></div>
+    <!-- </div> -->
+  </div>
+  <div class="sec2">
+    <div class="sec2cont2">
+      
+    </div>
+    <div class="sec2img2">
+      <img src="images/slide2_img1.png">
+    </div>
+  </div>
+  <div class="sec3">
+    <div class="sec3cont3">
+      
+    </div>
+    <div class="sec3img3">
+      <img src="images/slide2_img6.jpg">
+    </div>
+  </div>
+</div>
+</center>
+<!-- footer -->
+<div class="footer">
+    <div class="contact">
+      <p><b>Contact Us</b></p></div>
+      <div class="names">
+        <center class="Ankit">
+        <h1>Ankit Kumar</h1>
+        <span><a href="https://github.com/ishvik"><i class="fa fa-github" aria-hidden="true"></i></a></span>
+        <span><a href="https://www.linkedin.com/in/simran-singh-92894b1a1/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+        <span><a href="https://www.instagram.com/ishvik_20/?hl=en" ><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+                <span><a href="mailto:singh.simran9654@gmail.com" ><i class="fa fa-envelope" aria-hidden="true"></i></a></span>
+      </center>
+<div class="about">
+      <p><b>About Us</b><br>This Electronics Repair Shop. Here We Will Provide Engineers to you for Repair Your Electronic Devices<i>Founder : Ankit Kumar</i></p>
+    </div>
+  </div>
+  <br>
+      <center class="Ankit">
+      	<p>Designed,Developed and managed by<p>
+        <h1>Komal</h1>
+        <span><a href="https://github.com/komal3120"><i class="fa fa-github" aria-hidden="true"></i></a></span>
+        <span><a href="https://www.linkedin.com/in/komal-pal-6527b61a5/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+        <span><a href="https://www.instagram.com/komal_3125/" ><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+                <span><a href="mailto:komalpal0000@gmail.com" ><i class="fa fa-envelope" aria-hidden="true"></i></a></span>
+      </center>
+      </div>
+        
+    
+
+<script>
+var modal = document.getElementById('id01');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+var modal = document.getElementById('id02');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+// slider section
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+</script>
+</body>
+</html>
