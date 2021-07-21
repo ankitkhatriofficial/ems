@@ -12,7 +12,7 @@
 ---------------------------------------------
 ```sh
 1) HttpRequest (POST)
-http://localhost:6000/training-centers
+End point: http://localhost:6000/training-centers
 Parameters(Request Body): {
    centerCode (Primary Key/Id) -> String, 
    centerName -> String,
@@ -46,13 +46,13 @@ Output : "Returns the newly created training center details"
 
 ```sh
 2) HttpRequest (GET)
-http://localhost:6000/training-centers
+End point: http://localhost:6000/training-centers
 Output : "Returns all the records of training centers"
 ```
 
 ```sh
 3) HttpRequest (GET)
-http://localhost:6000/training-centers/filter
+End point: http://localhost:6000/training-centers/filter
 Parameters(Request Body): {
         Any field available in TrainingCenter model
    }
